@@ -7,7 +7,9 @@ const validation = {
     return (req, res, next) => {
       this.validateInput(req, schema)
         // moving forward when it's ok
-        .then(next())
+        .then(() => {
+          next();
+        })
         .catch(err => this.handleError(err, res));
     };
   },
