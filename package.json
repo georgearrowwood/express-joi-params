@@ -1,6 +1,6 @@
 {
   "name": "express-joi-params",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validate express input all kind of parameters with joi",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git@github.com:georgearrowwood/express-joi-params.git"
   },
   "dependencies": {
-    "joi": "^10.5.2"
+    "joi": "^11.0.3"
   },
   "keywords": [
     "express",
