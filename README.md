@@ -15,8 +15,13 @@ In your express route file include
 
 ```
 const validation = require('express-joi-params');
-const rule = require('./validation').rule;
+const rule = require('express-joi-params').rule;
 ```
+or
+```
+import validation, { rule } from 'express-joi-params';
+```
+
 then in any rote add middleware
 
 ```
