@@ -1,0 +1,31 @@
+{
+  "name": "express-joi-params",
+  "version": "0.0.1",
+  "description": "Validate express input all kind of parameters with joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:georgearrowwood/express-joi-params.git"
+  },
+  "dependencies": {
+    "joi": "^10.5.2"
+  },
+  "keywords": [
+    "express",
+    "validation",
+    "joi"
+  ],
+  "author": "Juri Kalinin <kalininj@gmail.com>",
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "https://github.com/georgearrowwood/express-joi-params/blob/master/LICENSE"
+  }
+],
+  "bugs": {
+    "url": "https://github.com/georgearrowwood/express-joi-params/issues"
+  }
+}
