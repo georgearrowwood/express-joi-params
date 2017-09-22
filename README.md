@@ -41,10 +41,10 @@ in case of error will output
     "errors": {
         "errors": [
             {
-                "message": "\"username\" is required",
+                "message": "\"login\" is required",
                 "type": "any.required",
                 "field": [
-                    "username"
+                    "login"
                 ]
             }
         ],

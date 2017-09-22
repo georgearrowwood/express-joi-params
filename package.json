@@ -1,6 +1,6 @@
 {
   "name": "express-joi-params",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Validate express input all kind of parameters with joi",
   "main": "index.js",
   "scripts": {
